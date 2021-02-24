@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "advanced_learning"
+version = "0.1.0"
+description = ""
+authors = ["eyalasulin <eyala@recolabs.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyterlab = "2.2.9"
+notebook = "6.1.5"
+nodejs = "*"
+ipywidgets = "*"
+widgetsnbextension = "*"
+ipykernel = "*"
+ipyparallel = "*"
+jupyterlab-widgets = "*"
+pandas = "*"
+scikit-learn = "*"
+scipy = "*"
+jupyter = "^1.0.0"
+pydot = "^1.4.1"
+jupytext = "^1.10.1"
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
